@@ -1,0 +1,30 @@
+h1 {
+    color: #A51D00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a {
+    background-color: #eee;
+    color: black;
+    display: block; /* Makes links appear below each other */
+    padding: 12px;
+    text-decoration: none; /* Removes link underlines */
+}
+
+nav a:hover {
+    background-color: #ccc; /* Background on mouse-over */
+}
+
+nav a:active {
+    background-color: #A51D00; /* Adds colour to active link */
+    color: white;
+}
+
+img {
+    border-radius: 30px;
+}
